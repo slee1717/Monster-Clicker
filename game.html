@@ -1,0 +1,139 @@
+<!DOCType HTML>
+<!-- JongShen Sam Lee -->
+<html lang="en">
+
+<head>
+    <meta name="description" content="Monster Clicker: Overlord is the best idle clicker game in the world. Raise an army of monsters and become an overlord today!">
+    <meta name="keywords" content="Idle, Game, Online, Monster, Clicker">
+    <meta name="author" content="Jong Shen Lee">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <title>
+        Monster Clicker - Game
+    </title>
+    <script src="scripts/game.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles/awesome.css" />
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li class="navbar"><a class="navlinks" href="index.html">Home</a></li>
+            <li class="navbar"><a class="navlinks" href="#">News</a></li>
+            <li class="navbar"><a class="navlinks" href="contact.html">Contact</a></li>
+            <li class="navbar"><a class="navlinks" href="#">About</a></li>
+            <li class="navbar"><a class="navlinks" href="#">Register</a></li>
+            <li class="navbar"><a class="navlinks" id="playbutton" href="login.html">Play Now</a></li>
+        </ul>
+    </header>
+    <main>
+        <img alt="Gold" src="images/coin.png" onclick="goldclick()" />
+        <div><b>Gold:</b></div>
+        <div id="goldamount">0</div>
+        <div><b>gold/sec:</b></div>
+        <div id="goldseconds">0</div>
+        <div><b>System:</b></div>
+        <div id="messages">Welcome to Overlord!</div>
+        <br />
+        <table class="tg">
+            <tr>
+                <th><img alt="Goblin" src="images/goblin.png"></th>
+                <th><img alt="Imp" src="images/imp.png"></th>
+                <th><img alt="Gnome" src="images/gnome.png"></th>
+                <th><img alt="Skeleton" src="images/skeleton.png"></th>
+                <th><img alt="Troll" src="images/troll.png"></th>
+                <th><img alt="Demon" src="images/demon.png"></th>
+                <th><img alt="Mummy" src="images/mummy.png"></th>
+                <th><img alt="Witch" src="images/witch.png"></th>
+                <th><img alt="Dragon" src="images/dragon.png"></th>
+                <th><img alt="Noob" src="images/noob.png"></th>
+            </tr>
+            <tr>
+                <td>
+                    <div>Goblin</div>Amount: <span id="goblinam">0</span>
+                    <div>
+                        <button id="gobbut" onclick="buygoblin()">Buy One</button>
+                    </div>
+                    <div>Cost: 20
+                    </div>
+                </td>
+                <td>
+                    <div>Imp</div>Amount: <span id="impam">0</span>
+                    <div><button id="impbut" onclick="buyimp()">Buy One</button>
+                    </div>
+                    <div>Cost: 120
+                    </div>
+                </td>
+                <td>
+                    <div>Gnome</div>Amount: <span id="gnomeam">0</span>
+                    <div><button id="gnobut" onclick="buygnome()">Buy One</button>
+                    </div>
+                    <div>Cost: 300
+                    </div>
+                </td>
+                <td>
+                    <div>Skeleton</div>Amount: <span id="skeletonam">0</span>
+                    <div><button id="skebut" onclick="buyskeleton()">Buy One</button>
+                    </div>
+                    <div>Cost: 500
+                    </div>
+                </td>
+                <td>
+                    <div>Troll</div>Amount: <span id="trollam">0</span>
+                    <div><button id="trolbut" onclick="buytroll()">Buy One</button>
+                    </div>
+                    <div>Cost: 1,000
+                    </div>
+                </td>
+                <td>
+                    <div>Demon</div>Amount: <span id="demonam">0</span>
+                    <div><button id="dembut" onclick="buydemon()">Buy One</button>
+                    </div>
+                    <div>Cost: 5,000
+                    </div>
+                </td>
+                <td>
+                    <div>Mummy</div>Amount: <span id="mummyam">0</span>
+                    <div><button id="mumbut" onclick="buymummy()">Buy One</button>
+                    </div>
+                    <div>Cost: 1,000
+                    </div>
+                </td>
+                <td>
+                    <div>Witch</div>Amount: <span id="witcham">0</span>
+                    <div><button id="witbut" onclick="buywitch()">Buy One</button>
+                    </div>
+                    <div>Cost: 10,000
+                    </div>
+                </td>
+                <td>
+                    <div>Dragon</div>Amount: <span id="dragonam">0</span>
+                    <div><button id="drabut" onclick="buydragon()">Buy One</button>
+                    </div>
+                    <div>Cost: 100,000
+                    </div>
+                </td>
+                <td>
+                    <div>N00b</div>Amount: <span id="noobam">0</span><button id="noobut" onclick="buynoob()">Buy One</button>
+                    <div>Cost: 1,000,000</div>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <br />
+    <embed id="lostmojo" src="music/theme.mp3" loop="true" autostart="true">
+    <footer>
+        <br />
+        <p id="copyright">Copyright &copy;2020 Monster Clicker Inc.</p>
+
+        <nav class="privacyplus">
+            <ul class="footerlinks">
+                <li class="footerlist"><a href="#">Privacy</a></li>
+                <li class="footerlist"><a href="#">Accessibility</a></li>
+                <li class="footerlist"><a href="#">Rights &amp; Responsibilities</a></li>
+                <li class="footerlist"><a href="#">Digital Accessibility Policy</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
